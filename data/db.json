@@ -1,0 +1,24 @@
+
+{
+
+  "blogs": [
+    {
+      "id": "46b6",
+      "title": "Fork a git branch",
+      "body": "Fork a GitHub repository: navigate to a repository on GitHub and click the Fork button.\nClone the repository locally: git clone https://github.com/user/repo.git.\nAdd remote called “upstream” pointing to the original repository: git remote add upstream https://github.com/user/repo.git.\nCheckout a new branch (here called “new_feature”): git checkout -b new_feature\nMake desired changes to the local repository on this branch.\nPull new changes from remote: git checkout master, git pull upstream master. Sync dev branch: git checkout new_feature, git merge master. Push changes to your remote repository: git push origin new_feature.\nOpen a pull request on GitHub merging your changes with the upstream (original) repository.\nOnce the pull request is accepted, you’ll want to pull those changes into your origin (forked repository). Change to master: git checkout master and pull: git pull upstream master.\nDelete your feature branch using the GitHub website or, delete the local branch: git branch -d new_feature, and delete the remote: git push origin --delete new_feature.",
+      "author": "Benjamin"
+    },
+    {
+      "id": "32f3",
+      "title": "How to Remove a Package with npm Uninstall",
+      "body": "To remove a package with the npm uninstall command, you can use the syntax npm uninstall package-name in the directory where the package is located.\n\nThe package I will be using to demonstrate how a package is uninstalled is Express – a NodeJS framework.",
+      "author": "Fred"
+    },
+    {
+      "id": "65b5",
+      "title": "What Is the Internet?",
+      "body": "The Internet — also known as the Net — is the world’s largest computer network. “What is a network?” you may ask. Even if you already know, you may want to read the next couple of paragraphs to make sure that we’re speaking\nthe same language.\n\nA computer network is a bunch of computers that communicate with each\nother. It’s sort of like a radio or TV network that connects a bunch of radio or\nTV stations so that they can share the latest episode of American Idol.\nDon’t take the analogy too far. In broadcast networking, TV networks send the\nsame information to all stations at the same time; in computer networking,\neach particular message is routed to a particular computer, so different computers can display different things. Unlike TV networks, computer networks\nare two-way: When computer A sends a message to computer B, B can send a\nreply back to A.\nSome computer networks consist of a central computer and a bunch of\nremote stations that report to it (for example, a central airline-reservation\ncomputer with thousands of screens and keyboards in airports and travel\nagencies). Other networks, including the Internet, are more egalitarian\nand permit any computer on the network to communicate with any other\ncomputer. Many new wireless devices — cellphones, Palm handhelds, the\nBlackBerry, iPhones, and their ilk — expand the reach of the Internet right\ninto our pockets. (Hands off our wallets!)\nThe Internet isn’t really one network — it’s a network of networks, all freely\nexchanging information. The networks range from the big, corporate networks to tiny ones (such as the one John built in his back bedroom, made\nfrom a couple of old PCs he bought at an electronics parts store) and everything in between. College and university networks have long been part of the\nInternet, and now high schools and elementary schools are joining in. Lately,\nthe Internet has become so popular that many households have more than\none computer and are creating their own little networks that they connect to the Internet.",
+      "author": "John Deo"
+    }
+  ]
+}
